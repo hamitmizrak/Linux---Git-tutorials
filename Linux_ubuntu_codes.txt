@@ -102,7 +102,7 @@ STATUS
 204 => İçerik Yok
 
 3xx => Redirection
-300 => 
+300 => Birden fazla yapısında kaynaklar arasında seçim yapınız
 301 => Kalıcı Olarak taşındı
 305 => Proxy Kullan
 
@@ -124,21 +124,82 @@ STATUS
 --------------------------------------------------------------------------------------------------------
 PID: Process IDentity
 --------------------------------------------------------------------------------------------------------
+Linux Dosya Sistemi 
+cd /
+boot: İşletim sistemi için gerekli dosyala ve dizinler (SİLMEYİN!!!)
+dev : fiziksel donanım dosyaları
+etc : Tüm Programlar 
+home : Local kullanıcıların bilgileri
+lib: Kütüphaneler
+media: Harici depolama
+opt: Uygulamalarda opsionel
+proc: Sistem çalışan kaynakla bilgileri 
+root: Root kullanıcının dosya dizinidir.
+Snap: Yeni nesi paket sistemi 
+tmp: Geçici  dosya 
+var: log, 
+--------------------------------------------------------------------------------------------------------
+sudo apt-get install curl
+sudo apt-get install zip
+sudo apt-get install gunzip
+
 
 --------------------------------------------------------------------------------------------------------
+sudo apt-get install vim
+curl --version
+7.81.0   
+7: major version 
+81: Minor Version 
+0: Patch (Yama)
+curl google.com
 
 --------------------------------------------------------------------------------------------------------
+man  mkdir   (man: komut nasıl çalışıyor)
+info mkdir   (bilgi vermek)
+whereis java
+which java 
+whatis java 
 
 --------------------------------------------------------------------------------------------------------
+pwd
+hostname 
+whoami       (Kullanıcı bilgisi)
+clear
+history
+--------------------------------------------------------------------------------------------------------
+cd ./
+cd ../
+cd ~
+cd /
 
 --------------------------------------------------------------------------------------------------------
+mkdir deneme
+rmdir deneme 
+rm -rf deneme
+cp deneme.txt deneme
+mv deneme.txt deneme44.txt 
+mv deneme44.txt ./klasor
+drwxr-xr-x  1 root root   4096 Oct 28 16:23 deneme
+d 
+rwx :7
+r-x :5
+r-x :5
 
+r: read    (2^2=4)
+w: writer  (2^1=2)
+x: execute (2^0=1)
+-: yok
 --------------------------------------------------------------------------------------------------------
+cat >> main.html
+cat main.html 
 
+vim main.html 
+i 
+:wq => kaydet çık  
+:q! => kaydetmeden çık 
 --------------------------------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------------------------------
-
+ls -l 
+ls -al : lsitele ve gizli oalnları göster
 --------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------
