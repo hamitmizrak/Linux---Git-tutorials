@@ -25,7 +25,11 @@ Linux: 1990 Linus Torvalds ve ekibiyle beraber yazılmıştır.
 GNU/GPL lisansa sahiptir.
 GNU: Gnu is Not Unix
 GPL: Free as in Freedom (Public Licence)
-
+GPL 4 Temel Özgürlük İlkesi
+Programı sınırsız kullan
+Programı sınırsız değiştir
+Programı sınırsız dağıt 
+Programı sınırsız incele 
 
 --------------------------------------------------------------------------------------------------------
 Unix: ücretli bir işletim sisteminden dolayı Linux
@@ -80,10 +84,45 @@ sudo -nlptu
 
 --------------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------------
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade 
+
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
 
 --------------------------------------------------------------------------------------------------------
+STATUS
+1xx => Information
+100 => Gönderdiğin paketleri göndermeye devam edebilirsin
 
+2xx => Success
+200 => OK
+201 => Oluşturuldu
+202 => Kabul edildi
+204 => İçerik Yok
+
+3xx => Redirection
+300 => 
+301 => Kalıcı Olarak taşındı
+305 => Proxy Kullan
+
+4xx => Client Error
+400 => Kötü istek (Bad Request)
+401 => Yetkili kişi değilsin (Kullanıcı doğrulaması gerekiyor)
+403 => Yasaklı Bölge (Rolles) Kullanıcı login olmuş ancak sayfaya erişim yetkisi yoktur
+402 => Ödeme Yetkisi
+404 => Bulunamadı
+405 => Metota erişi yetkisi yoktur (Delete, Put, Post)
+
+5xx => Server Error
+500 => Dahili sunucu hatası
+501 => İstek uygulamadı
+502 => Gateway
+503 => Servis hatası
+504 => Gateway zaman aşımına uğradı
+
+--------------------------------------------------------------------------------------------------------
+PID: Process IDentity
 --------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------
